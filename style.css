@@ -1,3 +1,5 @@
+/*Theme Name: FooDog */
+/*Author: BeCode */
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(assets/style/reset.css);
@@ -27,6 +29,7 @@ body {
 
 .title {
   margin-left: 15vw;
+  font-family: "Crimson Text";
   height: 6vh;
   font-size: 6vh;
   font-weight: bold; }
