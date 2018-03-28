@@ -4,7 +4,15 @@
 $crimson : 'Crimson Text'
 $open : 'Open Sans'
 $fontColor : #404040
-.headerDog
+$footer1: #3A3E43
+$footer2: #303336
+$footerTitle: #9A9A9B
+$borderColor: #F6F6F6
+body
+    overflow-x: hidden
+    background-color: #FFFFFF
+.headerTop
+    .headerDog
     font-family: $crimson
     color: $fontColor
     width: 100vw
@@ -14,25 +22,71 @@ $fontColor : #404040
     .socialLink
         height: 3vh
         ul
-            margin-top: 1vh
+            padding: 5vh 4vw
             list-style: none
             float: right
+            transform: translateX(-0.5vw)
             li
                 font-size: 1.5vh
                 display: inline
                 padding-left: 0.5vw
                 padding-right: 0.5vw
-    .title
-        height: 6vh
-        font-size: 6vh
-        font-weight: bold
-    .pageLink
-        margin-top: 6vh
-        li
-            display: inline
-            a
-                text-decoration: none
-                color: $fontColor
-                font-size: 1.4vh
-                padding-left: 2.5vw
-                font-family: $open
+.title
+    margin-left: 15vw
+    height: 6vh
+    font-size: 6vh
+    font-weight: bold
+.pageLink
+    margin-top: 10vh
+    border-bottom: 2px solid $borderColor
+    width: 60%
+    margin-left: 18vw
+    padding-bottom: 1vh
+    text-align: center
+    li
+        display: inline
+        a
+            text-decoration: none
+            color: $fontColor
+            font-size: 1.4vh
+            padding-left: 2.5vw
+            font-family: $open
+
+main
+    height: 80vh
+footer
+    position: absolute
+    width: 100vw
+    .top
+        background-color: $footer1
+        height: 48.5vh
+        display: flex
+        .categories
+            padding: 2vh 1vw
+            font-size: 1.3vh
+            list-style: none
+            color: $footerTitle
+            width: 30vw
+            margin-left: 10vw
+            margin-top: 2vh
+            font-family: $open
+            font-weight: bold
+            li
+                text-transform: uppercase
+                ul
+                    padding-right: 10vw
+                    transform: translateX(-1vw)
+                    .cat-item-3
+                        border: 1px solid $footer1
+                        padding-top: 2vh
+                    li
+                        text-transform: capitalize
+                        padding-top: 3vh
+                        padding-bottom: 2vh
+                        border-top: 1px solid #44484D
+                        a
+                            text-decoration: none
+                            color: white
+    .bottom
+        background-color: $footer2
+        height: 15vh

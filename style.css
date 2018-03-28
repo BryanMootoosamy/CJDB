@@ -1,37 +1,90 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(assets/style/reset.css);
-.headerDog {
+body {
+  overflow-x: hidden;
+  background-color: #FFFFFF; }
+
+.headerTop {
   font-family: "Crimson Text";
   color: #404040;
   width: 100vw;
   text-align: center;
   display: block;
   height: 4vh; }
-  .headerDog .socialLink {
+  .headerTop .socialLink {
     height: 3vh; }
-    .headerDog .socialLink ul {
-      margin-top: 1vh;
+    .headerTop .socialLink ul {
+      padding: 5vh 4vw;
       list-style: none;
-      float: right; }
-      .headerDog .socialLink ul li {
+      float: right;
+      transform: translateX(-0.5vw); }
+      .headerTop .socialLink ul li {
         font-size: 1.5vh;
         display: inline;
         padding-left: 0.5vw;
         padding-right: 0.5vw; }
-  .headerDog .title {
-    height: 6vh;
-    font-size: 6vh;
-    font-weight: bold; }
-  .headerDog .pageLink {
-    margin-top: 6vh; }
-    .headerDog .pageLink li {
-      display: inline; }
-      .headerDog .pageLink li a {
-        text-decoration: none;
-        color: #404040;
-        font-size: 1.4vh;
-        padding-left: 2.5vw;
-        font-family: "Open Sans"; }
+
+.title {
+  margin-left: 15vw;
+  height: 6vh;
+  font-size: 6vh;
+  font-weight: bold; }
+
+.pageLink {
+  margin-top: 10vh;
+  border-bottom: 2px solid #F6F6F6;
+  width: 60%;
+  margin-left: 18vw;
+  padding-bottom: 1vh;
+  text-align: center; }
+  .pageLink li {
+    display: inline; }
+    .pageLink li a {
+      text-decoration: none;
+      color: #404040;
+      font-size: 1.4vh;
+      padding-left: 2.5vw;
+      font-family: "Open Sans"; }
+
+main {
+  height: 80vh; }
+
+footer {
+  position: absolute;
+  width: 100vw; }
+  footer .top {
+    background-color: #3A3E43;
+    height: 48.5vh;
+    display: flex; }
+    footer .top .categories {
+      padding: 2vh 1vw;
+      font-size: 1.3vh;
+      list-style: none;
+      color: #9A9A9B;
+      width: 30vw;
+      margin-left: 10vw;
+      margin-top: 2vh;
+      font-family: "Open Sans";
+      font-weight: bold; }
+      footer .top .categories li {
+        text-transform: uppercase; }
+        footer .top .categories li ul {
+          padding-right: 10vw;
+          transform: translateX(-1vw); }
+          footer .top .categories li ul .cat-item-3 {
+            border: 1px solid #3A3E43;
+            padding-top: 2vh; }
+          footer .top .categories li ul li {
+            text-transform: capitalize;
+            padding-top: 3vh;
+            padding-bottom: 2vh;
+            border-top: 1px solid #44484D; }
+            footer .top .categories li ul li a {
+              text-decoration: none;
+              color: white; }
+  footer .bottom {
+    background-color: #303336;
+    height: 15vh; }
 
 /*# sourceMappingURL=style.css.map */
