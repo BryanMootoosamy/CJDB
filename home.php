@@ -1,7 +1,9 @@
 <?php
     //Template Name: Home
     get_template_part('head');
-    get_template_part('header');
+    if (!is_singular()) {
+        get_template_part('headerBurger');
+    }
 ?>
 <main>
 

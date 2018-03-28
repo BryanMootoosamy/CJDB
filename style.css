@@ -90,4 +90,18 @@ footer {
     background-color: #303336;
     height: 15vh; }
 
+.headerBurger {
+  height: 5vh;
+  border-bottom: 1px solid #F6F6F6; }
+  .headerBurger .left {
+    display: flex;
+    color: #404040; }
+    .headerBurger .left .fa-bars {
+      margin: 2vh 1vw 0 1vw; }
+    .headerBurger .left h2 {
+      margin-top: 0.2vh;
+      font-size: 4vh;
+      font-family: "Crimson Text";
+      font-weight: bold; }
+
 /*# sourceMappingURL=style.css.map */
