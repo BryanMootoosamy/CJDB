@@ -59,7 +59,7 @@ footer {
     display: flex; }
     footer .top .categories {
       padding: 2vh 1vw;
-      font-size: 1.3vh;
+      font-size: 1.1vh;
       list-style: none;
       color: #9A9A9B;
       width: 30vw;
@@ -77,7 +77,7 @@ footer {
             padding-top: 2vh; }
           footer .top .categories li ul li {
             text-transform: capitalize;
-            padding-top: 3vh;
+            padding-top: 2.8vh;
             padding-bottom: 2vh;
             border-top: 1px solid #44484D; }
             footer .top .categories li ul li a {
