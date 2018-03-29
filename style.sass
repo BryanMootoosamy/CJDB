@@ -65,6 +65,8 @@ footer
         background-color: $footer1
         height: 48.5vh
         display: flex
+        @media screen and (max-width: 768px) and (orientation: portrait)
+            height: 40vh
         .categories
             padding: 2vh 1vw
             font-size: 1.1vh
@@ -75,6 +77,10 @@ footer
             margin-top: 2vh
             font-family: $open
             font-weight: bold
+            @media screen and (max-width: 768px) and (orientation: portrait)
+                font-size: 2vh
+                margin-top: 0.2vh
+
             li
                 text-transform: uppercase
                 ul
@@ -94,14 +100,23 @@ footer
     .bottom
         background-color: $footer2
         height: 15vh
+        @media screen and (max-width: 768px) and (orientation: portrait)
+            height: 5vh
 .headerBurger
     height: 6vh
     border-bottom: 1px solid $borderColor
     display: flex
+    width: 100vw
+    @media screen and (max-width: 768px) and (orientation: portrait)
+        height: 10vh
+    @media screen and (max-width: 768px) and (orientation: landscape)
+        height: 15vh
     .left
         display: flex
         width: 20vw
         color: $fontColor
+        @media screen and (max-width: 768px) and (orientation: landscape)
+            width: 8vw
         .menu
             position: absolute
             top: 6vh
@@ -111,11 +126,17 @@ footer
             width: 10vw
             padding-top: 6vh
             justify-content: left
+            @media screen and (max-width: 768px) and (orientation: portrait)
+                transform: translateX(-15vh)
             div
                 ul
                     li
                         padding-top: 7vh
                         padding-left: 2vw
+                        @media screen and (max-width: 768px) and (orientation: portrait)
+                            padding-top: 5vh
+                        @media screen and (max-width: 768px) and (orientation: landscape)
+                            padding-top: 10vh
                         a
                             text-decoration: none
                             color: $fontColor
@@ -124,6 +145,8 @@ footer
 
         .show
             transform: translate(10vw)
+            @media screen and (max-width: 768px) and (orientation: portrait)
+                transform: translateX(15vh)
         button
             margin: 1vh 1vw 2vh 1vw
             font-size: 3vh
@@ -134,10 +157,20 @@ footer
             font-size: 4vh
             font-family: $crimson
             font-weight: bold
+            @media screen and (max-width: 768px) and (orientation: portrait)
+                margin-top: 2vh
+                margin-left: 25vw
+            @media screen and (max-width: 768px) and (orientation: landscape)
+                font-size: 9vh
+                margin-top: 3vh
     .center
         display: flex
         width: 60vw
         margin: auto
+        @media screen and (max-width: 768px) and (orientation: portrait)
+            display: none
+        @media screen and (max-width: 768px) and (orientation: landscape)
+            padding-left: 20vw
         padding-left: 25vw
         font-family: $open
         font-size: 1.3vh
@@ -146,10 +179,18 @@ footer
         p
             margin-top: 1vh
             padding-right: 0.5vw
+            @media screen and (max-width: 768px) and (orientation: portrait)
+                font-size: 2vh
+            @media screen and (max-width: 768px) and (orientation: landscape)
+                font-size: 4vh
+                width: 25%
         form
             input
                 border: 2px solid $fontColor
                 transform: translateY(0.5vh)
+                @media screen and (max-width: 768px) and (orientation: landscape)
+                    width: 20vw
+                    margin-top: 3vh
             button
                 background-color: $fontColor
                 color: white
@@ -162,6 +203,11 @@ footer
         width: 10vw
         display: flex
         height: 100%
+        @media screen and (max-width: 768px) and (orientation: portrait)
+            width: 40vw
+            margin-left: 52vw
+        @media screen and (max-width: 768px) and (orientation: landscape)
+            width: 40vw
         .text
             margin: auto
             margin-right: 0
@@ -172,6 +218,19 @@ footer
             background-color: #FF8D6A
             font-size: 1.35vh
             padding: 0.5vh 0.5vw
+            @media screen and (max-width: 768px) and (orientation: portrait)
+                padding-left: 0
+                margin-left: 0
+                width: 45%
+                height: 60%
+                text-align: center
+                font-size: 2vh
+            @media screen and (max-width: 768px) and (orientation: landscape)
+                font-size: 3vh
+                p
+                    width: 80%
+                    transform: translateX(2vw)
+                    transform: translateY(1vh)
             height: 80%
             color: white
             border-radius: 100%
@@ -180,3 +239,6 @@ footer
             margin: auto
             border-left: 1px solid lightgrey
             padding: 1.8vh 0.5vw
+            @media screen and (max-width: 768px)
+                margin-left: 2vw
+                padding-left: 3vw

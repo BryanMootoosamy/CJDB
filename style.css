@@ -60,6 +60,9 @@ footer {
     background-color: #3A3E43;
     height: 48.5vh;
     display: flex; }
+    @media screen and (max-width: 768px) and (orientation: portrait) {
+      footer .top {
+        height: 40vh; } }
     footer .top .categories {
       padding: 2vh 1vw;
       font-size: 1.1vh;
@@ -70,6 +73,10 @@ footer {
       margin-top: 2vh;
       font-family: "Open Sans";
       font-weight: bold; }
+      @media screen and (max-width: 768px) and (orientation: portrait) {
+        footer .top .categories {
+          font-size: 2vh;
+          margin-top: 0.2vh; } }
       footer .top .categories li {
         text-transform: uppercase; }
         footer .top .categories li ul {
@@ -89,15 +96,28 @@ footer {
   footer .bottom {
     background-color: #303336;
     height: 15vh; }
+    @media screen and (max-width: 768px) and (orientation: portrait) {
+      footer .bottom {
+        height: 5vh; } }
 
 .headerBurger {
   height: 6vh;
   border-bottom: 1px solid #F6F6F6;
-  display: flex; }
+  display: flex;
+  width: 100vw; }
+  @media screen and (max-width: 768px) and (orientation: portrait) {
+    .headerBurger {
+      height: 10vh; } }
+  @media screen and (max-width: 768px) and (orientation: landscape) {
+    .headerBurger {
+      height: 15vh; } }
   .headerBurger .left {
     display: flex;
     width: 20vw;
     color: #404040; }
+    @media screen and (max-width: 768px) and (orientation: landscape) {
+      .headerBurger .left {
+        width: 8vw; } }
     .headerBurger .left .menu {
       position: absolute;
       top: 6vh;
@@ -107,9 +127,18 @@ footer {
       width: 10vw;
       padding-top: 6vh;
       justify-content: left; }
+      @media screen and (max-width: 768px) and (orientation: portrait) {
+        .headerBurger .left .menu {
+          transform: translateX(-15vh); } }
       .headerBurger .left .menu div ul li {
         padding-top: 7vh;
         padding-left: 2vw; }
+        @media screen and (max-width: 768px) and (orientation: portrait) {
+          .headerBurger .left .menu div ul li {
+            padding-top: 5vh; } }
+        @media screen and (max-width: 768px) and (orientation: landscape) {
+          .headerBurger .left .menu div ul li {
+            padding-top: 10vh; } }
         .headerBurger .left .menu div ul li a {
           text-decoration: none;
           color: #404040;
@@ -117,6 +146,9 @@ footer {
           font-weight: bold; }
     .headerBurger .left .show {
       transform: translate(10vw); }
+      @media screen and (max-width: 768px) and (orientation: portrait) {
+        .headerBurger .left .show {
+          transform: translateX(15vh); } }
     .headerBurger .left button {
       margin: 1vh 1vw 2vh 1vw;
       font-size: 3vh;
@@ -127,6 +159,14 @@ footer {
       font-size: 4vh;
       font-family: "Crimson Text";
       font-weight: bold; }
+      @media screen and (max-width: 768px) and (orientation: portrait) {
+        .headerBurger .left h2 {
+          margin-top: 2vh;
+          margin-left: 25vw; } }
+      @media screen and (max-width: 768px) and (orientation: landscape) {
+        .headerBurger .left h2 {
+          font-size: 9vh;
+          margin-top: 3vh; } }
   .headerBurger .center {
     display: flex;
     width: 60vw;
@@ -136,12 +176,29 @@ footer {
     font-size: 1.3vh;
     font-weight: bold;
     color: #404040; }
+    @media screen and (max-width: 768px) and (orientation: portrait) {
+      .headerBurger .center {
+        display: none; } }
+    @media screen and (max-width: 768px) and (orientation: landscape) {
+      .headerBurger .center {
+        padding-left: 20vw; } }
     .headerBurger .center p {
       margin-top: 1vh;
       padding-right: 0.5vw; }
+      @media screen and (max-width: 768px) and (orientation: portrait) {
+        .headerBurger .center p {
+          font-size: 2vh; } }
+      @media screen and (max-width: 768px) and (orientation: landscape) {
+        .headerBurger .center p {
+          font-size: 4vh;
+          width: 25%; } }
     .headerBurger .center form input {
       border: 2px solid #404040;
       transform: translateY(0.5vh); }
+      @media screen and (max-width: 768px) and (orientation: landscape) {
+        .headerBurger .center form input {
+          width: 20vw;
+          margin-top: 3vh; } }
     .headerBurger .center form button {
       background-color: #404040;
       color: white;
@@ -154,6 +211,13 @@ footer {
     width: 10vw;
     display: flex;
     height: 100%; }
+    @media screen and (max-width: 768px) and (orientation: portrait) {
+      .headerBurger .right {
+        width: 40vw;
+        margin-left: 52vw; } }
+    @media screen and (max-width: 768px) and (orientation: landscape) {
+      .headerBurger .right {
+        width: 40vw; } }
     .headerBurger .right .text {
       margin: auto;
       margin-right: 0;
@@ -168,9 +232,28 @@ footer {
       color: white;
       border-radius: 100%;
       transform: rotate(-15deg); }
+      @media screen and (max-width: 768px) and (orientation: portrait) {
+        .headerBurger .right .text {
+          padding-left: 0;
+          margin-left: 0;
+          width: 45%;
+          height: 60%;
+          text-align: center;
+          font-size: 2vh; } }
+      @media screen and (max-width: 768px) and (orientation: landscape) {
+        .headerBurger .right .text {
+          font-size: 3vh; }
+          .headerBurger .right .text p {
+            width: 80%;
+            transform: translateX(2vw);
+            transform: translateY(1vh); } }
     .headerBurger .right .search {
       margin: auto;
       border-left: 1px solid lightgrey;
       padding: 1.8vh 0.5vw; }
+      @media screen and (max-width: 768px) {
+        .headerBurger .right .search {
+          margin-left: 2vw;
+          padding-left: 3vw; } }
 
 /*# sourceMappingURL=style.css.map */
