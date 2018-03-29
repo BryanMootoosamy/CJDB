@@ -76,7 +76,13 @@ footer {
       @media screen and (max-width: 768px) and (orientation: portrait) {
         footer .top .categories {
           font-size: 2vh;
-          margin-top: 0.2vh; } }
+          margin-top: 0.2vh;
+          margin-left: 3vw; } }
+      @media screen and (max-width: 768px) and (orientation: landscape) {
+        footer .top .categories {
+          font-size: 3vh;
+          margin-top: 1vh;
+          margin-left: 3vw; } }
       footer .top .categories li {
         text-transform: uppercase; }
         footer .top .categories li ul {
@@ -154,6 +160,9 @@ footer {
       font-size: 3vh;
       border: none;
       background: none; }
+      @media screen and (max-width: 768px) and (orientation: landscape) {
+        .headerBurger .left button {
+          font-size: 5vh; } }
     .headerBurger .left h2 {
       margin-top: 0.2vh;
       font-size: 4vh;
