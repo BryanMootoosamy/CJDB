@@ -95,15 +95,40 @@ footer
         background-color: $footer2
         height: 15vh
 .headerBurger
-    height: 5vh
+    height: 6vh
     border-bottom: 1px solid $borderColor
     display: flex
     .left
         display: flex
         width: 20vw
         color: $fontColor
-        .fa-bars
-            margin: 2vh 1vw 0 1vw
+        .menu
+            position: absolute
+            top: 6vh
+            left: 0
+            transform: translateX(-10vw)
+            transition: all 0.4s ease
+            width: 10vw
+            padding-top: 6vh
+            justify-content: left
+            div
+                ul
+                    li
+                        padding-top: 7vh
+                        padding-left: 2vw
+                        a
+                            text-decoration: none
+                            color: $fontColor
+                            font-family: $crimson
+                            font-weight: bold
+
+        .show
+            transform: translate(10vw)
+        button
+            margin: 1vh 1vw 2vh 1vw
+            font-size: 3vh
+            border: none
+            background: none
         h2
             margin-top: 0.2vh
             font-size: 4vh
@@ -134,4 +159,24 @@ footer
                 padding-bottom: 0.3vh
                 transform: translateY(0.5vh)
     .right
-        width: 20vw
+        width: 10vw
+        display: flex
+        height: 100%
+        .text
+            margin: auto
+            margin-right: 0
+            width: 25%
+            text-align: center
+            font-family: $crimson
+            font-weight: bold
+            background-color: #FF8D6A
+            font-size: 1.35vh
+            padding: 0.5vh 0.5vw
+            height: 80%
+            color: white
+            border-radius: 100%
+            transform: rotate(-15deg)
+        .search
+            margin: auto
+            border-left: 1px solid lightgrey
+            padding: 1.8vh 0.5vw
