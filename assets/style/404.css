@@ -1,0 +1,57 @@
+
+h4 {
+  
+  text-align: center;
+  padding-top: 80px; 
+  font-size: 20px; 
+}
+
+h1 {
+  
+  text-align: center;
+  margin-top: 60px;  
+  font-size: 40px;
+}
+
+.no-found {
+
+  margin-top: 150px;  
+  text-align: center;
+  font-size: 45px;  
+}
+
+.keyword-not-found {
+
+    margin-top: 60px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.search-product {
+
+    margin-top: 60px; 
+    text-align: center;
+  
+    
+}
+
+.search-valid img {
+
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  
+  
+}
+
+.search-valid {
+
+  padding-bottom: 10px;
+}
+
+input  {
+
+  height: 50px;
+  width: 50%;
+}
+

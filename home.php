@@ -6,6 +6,7 @@
     }
 ?>
 <main>
+    
 </main>
 <?php
     get_template_part('footer');

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(assets/style/reset.css);
+@import url(assets/style/404.css);
 body {
   overflow-x: hidden;
   background-color: #FFFFFF; }
