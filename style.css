@@ -92,9 +92,11 @@ footer {
 
 .headerBurger {
   height: 5vh;
-  border-bottom: 1px solid #F6F6F6; }
+  border-bottom: 1px solid #F6F6F6;
+  display: flex; }
   .headerBurger .left {
     display: flex;
+    width: 20vw;
     color: #404040; }
     .headerBurger .left .fa-bars {
       margin: 2vh 1vw 0 1vw; }
@@ -103,5 +105,30 @@ footer {
       font-size: 4vh;
       font-family: "Crimson Text";
       font-weight: bold; }
+  .headerBurger .center {
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    padding-left: 25vw;
+    font-family: "Open Sans";
+    font-size: 1.3vh;
+    font-weight: bold;
+    color: #404040; }
+    .headerBurger .center p {
+      margin-top: 1vh;
+      padding-right: 0.5vw; }
+    .headerBurger .center form input {
+      border: 2px solid #404040;
+      transform: translateY(0.5vh); }
+    .headerBurger .center form button {
+      background-color: #404040;
+      color: white;
+      border: 1px solid #404040;
+      border-bottom: none;
+      padding-top: 0.2vh;
+      padding-bottom: 0.3vh;
+      transform: translateY(0.5vh); }
+  .headerBurger .right {
+    width: 20vw; }
 
 /*# sourceMappingURL=style.css.map */

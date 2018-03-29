@@ -97,8 +97,10 @@ footer
 .headerBurger
     height: 5vh
     border-bottom: 1px solid $borderColor
+    display: flex
     .left
         display: flex
+        width: 20vw
         color: $fontColor
         .fa-bars
             margin: 2vh 1vw 0 1vw
@@ -107,3 +109,29 @@ footer
             font-size: 4vh
             font-family: $crimson
             font-weight: bold
+    .center
+        display: flex
+        width: 60vw
+        margin: auto
+        padding-left: 25vw
+        font-family: $open
+        font-size: 1.3vh
+        font-weight: bold
+        color: $fontColor
+        p
+            margin-top: 1vh
+            padding-right: 0.5vw
+        form
+            input
+                border: 2px solid $fontColor
+                transform: translateY(0.5vh)
+            button
+                background-color: $fontColor
+                color: white
+                border: 1px solid $fontColor
+                border-bottom: none
+                padding-top: 0.2vh
+                padding-bottom: 0.3vh
+                transform: translateY(0.5vh)
+    .right
+        width: 20vw
