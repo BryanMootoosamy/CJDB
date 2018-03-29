@@ -7,13 +7,7 @@
         get_template_part("headerBurger");
     }
 ?>
-<main>
-    <?php $posts = get_post();
-        foreach ($posts as $post) {
-            echo $post;
-        }
-    ?>
-</main>
+
 <?php
     get_template_part('footer');
 
