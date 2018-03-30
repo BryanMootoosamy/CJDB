@@ -1,6 +1,12 @@
 <?php
     //Template Name: Home
     get_template_part('head');
+    if (!is_singular()) {
+        get_template_part('header');
+    } else {
+        get_template_part("headerBurger");
+    }
+?>
     get_template_part('header');
 
     $test = 1;
