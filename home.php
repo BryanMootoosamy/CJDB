@@ -7,12 +7,14 @@
         get_template_part("headerBurger");
     }
 ?>
-    get_template_part('header');
+<?php
 
     $test = 1;
     if ( have_posts() ) : while ( have_posts() && $test != 6 ) : the_post();
     $test = $test + 1;
     if (!isset($grid)) { ?>
+
+
     <main>
     <!-- à afficher pour les articles -->
     <section class='section--popular'>

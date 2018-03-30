@@ -2,22 +2,35 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url(assets/style/reset.css);
 main .section--popular {
-  width: 85%;
+  width: 95%;
   text-align: center;
   margin: auto; }
   main .section--popular .grid {
     display: grid;
-    grid-template-columns: 325px 325px 235px 235px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 10%;
     padding: 2vh 0;
     grid-gap: 10px; }
   main .section--popular .gridmain {
     grid-column: 1/span 2;
     grid-row: 1/span 2; }
+  main .section--popular .gridmain img {
+    padding: 2vh 0; }
+  main .section--popular h4 {
+    font-size: 14px; }
+  main .section--popular h2 {
+    font-size: 18px; }
   main .section--popular h2, main .section--popular h4 {
     text-transform: uppercase;
+    color: #111;
+    padding: 2vh 0;
+    font-weight: bolder; }
+  main .section--popular h2 a, main .section--popular h4 a {
+    text-decoration: none;
+    text-transform: uppercase;
     color: #111; }
-  main .section--popular .categories {
+  main .section--popular .categories a {
+    text-decoration: none;
     color: #FF806A;
     font-size: 10px;
     font-weight: bolder;
