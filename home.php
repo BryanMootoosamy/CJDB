@@ -7,13 +7,9 @@
         get_template_part("headerBurger");
     }
 ?>
-<<<<<<< HEAD
 <main>
-    
-</main>
-=======
 
->>>>>>> b1b2aa9fa28ab8629d96f667daef76101368019e
+</main>
 <?php
     get_template_part('footer');
 
