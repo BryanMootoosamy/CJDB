@@ -21,4 +21,7 @@
     	shapeSpace_popular_posts($post_id);
     }
     add_action('wp_head', 'shapeSpace_track_posts');
+    add_theme_support( 'post-thumbnails' );
+    set_post_thumbnail_size( 220, 200);
+    add_image_size( 'big-one', 640, 430 );
 ?>
