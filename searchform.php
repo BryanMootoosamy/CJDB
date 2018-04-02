@@ -1,8 +1,8 @@
 <?php
 /**
    * Template for displaying search forms
-  * @package FooDog
-  * @since FooDog 0.1
+  * @package CJDB
+  * @since cjdb 0.1
   */
 ?>
 	<fieldset>

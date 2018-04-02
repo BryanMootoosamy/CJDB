@@ -8,7 +8,7 @@
                         <li><i class="fab fa-facebook-f"></i></i></li>
                         <li><i class="fab fa-twitter"></i></li>
                         <li><i class="fab fa-instagram"></i></li>
-                        <li><?php get_search_form(); ?></li>
+                        <li><i class="fas fa-search"></i></li>
                     </ul>
                 </div>
                 <div class="title">
@@ -19,4 +19,3 @@
                 <?php wp_nav_menu() ?>
             </div>
         </div>
-
