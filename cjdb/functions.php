@@ -26,9 +26,8 @@
 	function add_theme_assets() {
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans', false );
 	wp_enqueue_style( 'style', get_stylesheet_uri() );
-	wp_register_style( 'prefix-font-awesome', 'https://use.fontawesome.com/releases/v5.0.9/js/all.js' );
-	wp_enqueue_style( 'prefix-font-awesome'); 
-
+	wp_enqueue_script( 'prefix-font-awesome', 'https://use.fontawesome.com/releases/v5.0.9/js/all.js' );
+	wp_enqueue_script( 'modal', get_template_directory_uri() . '/assets/js/modal.js' );
 	}
 	add_action( 'wp_enqueue_scripts', 'add_theme_assets' );
 

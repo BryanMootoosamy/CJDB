@@ -8,7 +8,7 @@
                         <li><i class="fab fa-facebook-f"></i></i></li>
                         <li><i class="fab fa-twitter"></i></li>
                         <li><i class="fab fa-instagram"></i></li>
-                        <li><i class="fas fa-search"></i></li>
+                        <li><button type="button" name="button" id="modalTrigger"><i class="fas fa-search"></i></button></li>
                     </ul>
                 </div>
                 <div class="title">
@@ -19,3 +19,12 @@
                 <?php wp_nav_menu() ?>
             </div>
         </div>
+        <div class="modalSearch" id="modalSearch">
+            <button type="button" class="modalClose" id="modalClose" name="button"><i class="fas fa-times"></i></button>
+            <input type="text" placeholder="Insérez votre recherche ici" name="Search" value=""><button type="submit" class="searchModal" name="searchModal"><i class="fas fa-search"></i></button>
+        </div>
+
+<script type="text/javascript">
+<!--
+modal();
+//--></script>
