@@ -8,14 +8,11 @@
  *Version: 0.2
  *License: GNU General Public License v2 or later
  *License URI: http://www.gnu.org/licenses/gpl-2.0.html
- *Tags: responsive, foodog
+ *Tags: two-columns, right-sidebar, grid-layout, blog
  *Text Domain: cjdb
- *
  *This theme is licensed under the GPL.
  *Use it to make something cool, have fun, and share what you've learned with others.
  */
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 /* http://meyerweb.com/eric/tools/css/reset/
  * v3.0 | 20180413
  * License: none (public domain) */
@@ -124,92 +121,6 @@ body {
   font-size: 1.4vh;
   padding-left: 2.5vw;
   font-family: "Open Sans";
-}
-
-main {
-  height: 80vh;
-}
-
-footer {
-  position: absolute;
-  width: 100vw;
-}
-
-footer .top {
-  background-color: #3A3E43;
-  height: 48.5vh;
-  display: flex;
-}
-
-@media screen and (max-width: 768px) and (orientation: portrait) {
-  footer .top {
-    height: 40vh;
-  }
-}
-
-footer .top .categories {
-  padding: 2vh 1vw;
-  font-size: 1.1vh;
-  list-style: none;
-  color: #9A9A9B;
-  width: 30vw;
-  margin-left: 10vw;
-  margin-top: 2vh;
-  font-family: "Open Sans";
-  font-weight: bold;
-}
-
-@media screen and (max-width: 768px) and (orientation: portrait) {
-  footer .top .categories {
-    font-size: 2vh;
-    margin-top: 0.2vh;
-    margin-left: 3vw;
-  }
-}
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  footer .top .categories {
-    font-size: 3vh;
-    margin-top: 1vh;
-    margin-left: 3vw;
-  }
-}
-
-footer .top .categories li {
-  text-transform: uppercase;
-}
-
-footer .top .categories li ul {
-  padding-right: 10vw;
-  transform: translateX(-1vw);
-}
-
-footer .top .categories li ul .cat-item-3 {
-  border: 1px solid #3A3E43;
-  padding-top: 2vh;
-}
-
-footer .top .categories li ul li {
-  text-transform: capitalize;
-  padding-top: 2.8vh;
-  padding-bottom: 2vh;
-  border-top: 1px solid #44484D;
-}
-
-footer .top .categories li ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-footer .bottom {
-  background-color: #303336;
-  height: 15vh;
-}
-
-@media screen and (max-width: 768px) and (orientation: portrait) {
-  footer .bottom {
-    height: 5vh;
-  }
 }
 
 .headerBurger {
@@ -458,6 +369,92 @@ footer .bottom {
   .headerBurger .right .search {
     margin-left: 2vw;
     padding-left: 3vw;
+  }
+}
+
+main {
+  height: 80vh;
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+}
+
+footer .top {
+  background-color: #3A3E43;
+  height: 48.5vh;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  footer .top {
+    height: 40vh;
+  }
+}
+
+footer .top .categories {
+  padding: 2vh 1vw;
+  font-size: 1.1vh;
+  list-style: none;
+  color: #9A9A9B;
+  width: 30vw;
+  margin-left: 10vw;
+  margin-top: 2vh;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  footer .top .categories {
+    font-size: 2vh;
+    margin-top: 0.2vh;
+    margin-left: 3vw;
+  }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  footer .top .categories {
+    font-size: 3vh;
+    margin-top: 1vh;
+    margin-left: 3vw;
+  }
+}
+
+footer .top .categories li {
+  text-transform: uppercase;
+}
+
+footer .top .categories li ul {
+  padding-right: 10vw;
+  transform: translateX(-1vw);
+}
+
+footer .top .categories li ul .cat-item-3 {
+  border: 1px solid #3A3E43;
+  padding-top: 2vh;
+}
+
+footer .top .categories li ul li {
+  text-transform: capitalize;
+  padding-top: 2.8vh;
+  padding-bottom: 2vh;
+  border-top: 1px solid #44484D;
+}
+
+footer .top .categories li ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .bottom {
+  background-color: #303336;
+  height: 15vh;
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  footer .bottom {
+    height: 5vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

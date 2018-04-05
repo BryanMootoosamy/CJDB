@@ -1,3 +1,4 @@
+<!-- affiche le burger si singular -->
 <?php
     //Template Name: Home
     get_template_part('head');
@@ -7,7 +8,9 @@
         get_template_part("headerBurger");
     }
 ?>
-
 <?php
-    get_template_part('footer');
+    get_sidebar();
+?>
+<?php
+    get_footer();
 ?>

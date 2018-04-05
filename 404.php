@@ -7,38 +7,16 @@
     }
 ?>
 
-<div class="page-content-title-wrapper">
-
-    <div class="wrap_1280">
-
-        <h2 class="not-found-title">404 Error: Page not Found!</h2>
-
-    <div class="clearfix"></div>
-
+<div class="page-404-content-wrap">
+    <div class="page-404-content-header">
+        <div class="logo-404 post-title"><h1>404</h1></div>
+        <p>It looks like nothing was found at this location. Maybe try a search?</p>
     </div>
-
+    <div class="ruby-search">
+        <?php get_search_form(); ?>
+    </div>
 </div>
 
-<div class="wrap_1280">
-
-    <div class="main-content">
-
-        <div class="left-page-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
-
-            <h2 class='not-found-alert'>Something went a little wrong. Let's find you a solution!</h2>
-
-            <p class="not-found-paragraph">To help you find what you are looking for simply use the navigation above or search for what you are looking for below.
-
-            <div class="search-form-404"> <?php get_search_form(); ?></div>
-
-        </div>
-
-    </div><!-- END MAIN-CONTENT -->
-
-</div><!-- END wrap_1280 -->
-
-<div class="clearfix"></div>
-
 <?php
-    get_template_part('footer');
+    get_footer();
 ?>

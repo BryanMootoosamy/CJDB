@@ -122,5 +122,5 @@
         
     </div><!-- END wrap_1280 -->
 <?php
-    get_template_part('footer');
+    get_footer();
 ?>
