@@ -4,7 +4,7 @@
  *
  * Displays all of the head element and everything up until the "site-content" div.
  *
- * @package WordPress
+ * @package FooDog
  * @subpackage foodog
  * @since foodog 0.1
  */

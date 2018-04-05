@@ -7,7 +7,9 @@
         get_template_part("headerBurger");
     }
 ?>
-
+<main>
+    
+</main>
 <?php
     get_template_part('footer');
 
