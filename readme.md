@@ -1,3 +1,3 @@
 #CJDB
-NE PAS MODIFIER
-Underscore dans son état initial, pour référence.
+MASTER
+Version de travail commune de l'équipe.
