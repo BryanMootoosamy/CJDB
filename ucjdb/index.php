@@ -15,8 +15,8 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+	<div id="primary" class="content-area three-quarters">
+		<main id="main" class="site-main grid-2 has-gutter">
 
 		<?php
 		if ( have_posts() ) :
