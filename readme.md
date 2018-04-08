@@ -1,3 +1,3 @@
 #CJDB
-MASTER
-Version de travail commune de l'équipe.
+CLAUDE
+Version de travail de Claude.
