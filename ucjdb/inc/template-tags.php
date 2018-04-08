@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package _CDJB
+ * @package _CJDB
  */
 
 if ( ! function_exists( 'ucjdb_posted_on' ) ) :

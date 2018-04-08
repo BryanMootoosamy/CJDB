@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package _CDJB
+ * @package _CJDB
  */
 
 /**

@@ -1,10 +1,10 @@
 <?php
 /**
- * _CDJB functions and definitions
+ * _CJDB functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package _CDJB
+ * @package _CJDB
  */
 
 if ( ! function_exists( 'ucjdb_setup' ) ) :
@@ -19,7 +19,7 @@ if ( ! function_exists( 'ucjdb_setup' ) ) :
 		/*
 		 * Make theme available for translation.
 		 * Translations can be filed in the /languages/ directory.
-		 * If you're building a theme based on _CDJB, use a find and replace
+		 * If you're building a theme based on _CJDB, use a find and replace
 		 * to change 'ucjdb' to the name of your theme in all the template files.
 		 */
 		load_theme_textdomain( 'ucjdb', get_template_directory() . '/languages' );

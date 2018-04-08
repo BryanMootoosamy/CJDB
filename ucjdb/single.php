@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package _CDJB
+ * @package _CJDB
  */
 
 get_header();

@@ -1,8 +1,8 @@
 <?php
 /**
- * _CDJB Theme Customizer
+ * _CJDB Theme Customizer
  *
- * @package _CDJB
+ * @package _CJDB
  */
 
 /**
