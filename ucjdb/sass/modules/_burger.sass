@@ -22,17 +22,31 @@
             padding-top: 6vh
             justify-content: left
             @media screen and (max-width: 768px) and (orientation: portrait)
-                transform: translateX(-15vh)
+                transform: translateX(-30vw)
+                background-color: rgba(255,255,255,0.85)
+                top: 10vh
+                background-size: cover
+                height: 80vh
+                width: 30vw
+                padding-left: 2vw
+                .menu-item-38
+                    padding-top: 0
             div
                 ul
                     li
                         padding-top: 7vh
                         padding-left: 2vw
+                        list-style: none
                         @media screen and (max-width: 768px) and (orientation: portrait)
-                            padding-top: 5vh
+                            padding-top: 10vh
                         @media screen and (max-width: 768px) and (orientation: landscape)
                             padding-top: 10vh
                         a
+                            // @media screen and (max-width: 768px) and (orientation: portrait)
+                            //     color: $color__background-body
+                            //     background-color: $color__footer-2
+                            //     padding: 2vh 4vw
+                            //     border-radius: 2vh
                             text-decoration: none
                             color: $color__text-main
                             font-family: $font__branding
@@ -41,7 +55,8 @@
         .show
             transform: translate(10vw)
             @media screen and (max-width: 768px) and (orientation: portrait)
-                transform: translateX(15vh)
+                transform: translateX(18.5vw)
+                background: none
         button
             font-size: 3vh
             border: none

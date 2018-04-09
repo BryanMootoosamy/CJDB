@@ -316,13 +316,22 @@ body {
       justify-content: left; }
       @media screen and (max-width: 768px) and (orientation: portrait) {
         .headerBurger .left .menu {
-          transform: translateX(-15vh); } }
+          transform: translateX(-30vw);
+          background-color: rgba(255, 255, 255, 0.85);
+          top: 10vh;
+          background-size: cover;
+          height: 80vh;
+          width: 30vw;
+          padding-left: 2vw; }
+          .headerBurger .left .menu .menu-item-38 {
+            padding-top: 0; } }
       .headerBurger .left .menu div ul li {
         padding-top: 7vh;
-        padding-left: 2vw; }
+        padding-left: 2vw;
+        list-style: none; }
         @media screen and (max-width: 768px) and (orientation: portrait) {
           .headerBurger .left .menu div ul li {
-            padding-top: 5vh; } }
+            padding-top: 10vh; } }
         @media screen and (max-width: 768px) and (orientation: landscape) {
           .headerBurger .left .menu div ul li {
             padding-top: 10vh; } }
@@ -335,7 +344,8 @@ body {
       transform: translate(10vw); }
       @media screen and (max-width: 768px) and (orientation: portrait) {
         .headerBurger .left .show {
-          transform: translateX(15vh); } }
+          transform: translateX(18.5vw);
+          background: none; } }
     .headerBurger .left button {
       font-size: 3vh;
       border: none;
@@ -448,6 +458,64 @@ body {
         .headerBurger .right .search {
           margin-left: 2vw;
           padding-left: 3vw; } }
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+footer {
+  position: absolute;
+  width: 100vw; }
+  footer .top {
+    background-color: #3A3E43;
+    height: 48.5vh;
+    display: flex; }
+    @media screen and (max-width: 768px) and (orientation: portrait) {
+      footer .top {
+        height: 50vh; } }
+    footer .top .categories {
+      padding: 2vh 1vw;
+      font-size: 1.1vh;
+      list-style: none;
+      color: #666;
+      width: 30vw;
+      margin-left: 10vw;
+      margin-top: 2vh;
+      font-family: "Open Sans";
+      font-weight: bold; }
+      @media screen and (max-width: 768px) and (orientation: portrait) {
+        footer .top .categories {
+          font-size: 2vh;
+          margin-top: 0.2vh;
+          margin-left: 3vw; } }
+      @media screen and (max-width: 768px) and (orientation: landscape) {
+        footer .top .categories {
+          font-size: 3vh;
+          margin-top: 1vh;
+          margin-left: 3vw; } }
+      footer .top .categories li {
+        text-transform: uppercase; }
+        footer .top .categories li ul {
+          text-decoration: none;
+          padding-right: 10vw;
+          transform: translateX(-1vw); }
+          footer .top .categories li ul .cat-item-3 {
+            border: 1px solid #3A3E43;
+            padding-top: 2vh; }
+          footer .top .categories li ul li {
+            text-transform: capitalize;
+            padding-top: 2.8vh;
+            padding-bottom: 2vh;
+            border-top: 1px solid #44484D;
+            list-style: none; }
+            footer .top .categories li ul li a {
+              color: white;
+              text-decoration: none; }
+  footer .bottom {
+    background-color: #303336;
+    height: 15vh; }
+    @media screen and (max-width: 768px) and (orientation: portrait) {
+      footer .bottom {
+        height: 5vh; } }
 
 /*--------------------------------------------------------------
 # Typography
