@@ -301,7 +301,6 @@ body {
       height: 15vh; } }
   .headerBurger .left {
     display: flex;
-    width: 20vw;
     color: #404040; }
     @media screen and (max-width: 768px) and (orientation: landscape) {
       .headerBurger .left {
@@ -338,7 +337,6 @@ body {
         .headerBurger .left .show {
           transform: translateX(15vh); } }
     .headerBurger .left button {
-      margin: 1vh 1vw 2vh 1vw;
       font-size: 3vh;
       border: none;
       background: none; }
@@ -361,7 +359,8 @@ body {
   .headerBurger .center {
     display: flex;
     width: 60vw;
-    margin: auto;
+    margin-left: 6vw;
+    margin-top: 0.5vh;
     padding-left: 25vw;
     font-family: "Open Sans";
     font-size: 1.3vh;
@@ -395,13 +394,15 @@ body {
       color: white;
       border: 1px solid #404040;
       border-bottom: none;
-      padding-top: 0.2vh;
-      padding-bottom: 0.3vh;
-      transform: translateY(0.5vh); }
+      padding-top: 1vh;
+      padding-bottom: 1vh;
+      transform: translateY(0.3vh);
+      border-radius: none; }
   .headerBurger .right {
     width: 10vw;
     display: flex;
-    height: 100%; }
+    height: 100%;
+    margin-left: 15vw; }
     @media screen and (max-width: 768px) and (orientation: portrait) {
       .headerBurger .right {
         width: 40vw;
@@ -416,8 +417,8 @@ body {
       text-align: center;
       font-family: "Crimson Text";
       font-weight: bold;
-      background-color: #fff;
-      font-size: 1.35vh;
+      background-color: #FF8D6A;
+      font-size: 0.95vh;
       padding: 0.5vh 0.5vw;
       height: 80%;
       color: #fff;
@@ -440,6 +441,7 @@ body {
             transform: translateY(1vh); } }
     .headerBurger .right .search {
       margin: auto;
+      padding-left: 2vw;
       border-left: 1px solid lightgrey;
       padding: 1.8vh 0.5vw; }
       @media screen and (max-width: 768px) {

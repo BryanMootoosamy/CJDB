@@ -13,9 +13,12 @@
  */
 
 // get_header();
-if (is_singular()) {
-	get_template_part("headerburger");
-} else {get_template_part("header");}
+require "head.php";
+if (!is_singular()) {
+        get_template_part('header');
+    } else {
+        get_template_part("headerBurger");
+    }
 ?>
 
 	<div id="primary" class="content-area three-quarters">

@@ -9,7 +9,6 @@
         height: 15vh
     .left
         display: flex
-        width: 20vw
         color: $color__text-main
         @media screen and (max-width: 768px) and (orientation: landscape)
             width: 8vw
@@ -44,7 +43,6 @@
             @media screen and (max-width: 768px) and (orientation: portrait)
                 transform: translateX(15vh)
         button
-            margin: 1vh 1vw 2vh 1vw
             font-size: 3vh
             border: none
             background: none
@@ -64,7 +62,8 @@
     .center
         display: flex
         width: 60vw
-        margin: auto
+        margin-left: 6vw
+        margin-top: 0.5vh
         @media screen and (max-width: 768px) and (orientation: portrait)
             display: none
         @media screen and (max-width: 768px) and (orientation: landscape)
@@ -94,13 +93,15 @@
                 color: white
                 border: 1px solid $color__text-main
                 border-bottom: none
-                padding-top: 0.2vh
-                padding-bottom: 0.3vh
-                transform: translateY(0.5vh)
+                padding-top: 1vh
+                padding-bottom: 1vh
+                transform: translateY(0.3vh)
+                border-radius: none
     .right
         width: 10vw
         display: flex
         height: 100%
+        margin-left: 15vw
         @media screen and (max-width: 768px) and (orientation: portrait)
             width: 40vw
             margin-left: 52vw
@@ -113,8 +114,8 @@
             text-align: center
             font-family: $font__branding
             font-weight: bold
-            background-color: $color__background-body
-            font-size: 1.35vh
+            background-color: #FF8D6A
+            font-size: 0.95vh
             padding: 0.5vh 0.5vw
             @media screen and (max-width: 768px) and (orientation: portrait)
                 padding-left: 0
@@ -135,6 +136,7 @@
             transform: rotate(-15deg)
         .search
             margin: auto
+            padding-left: 2vw
             border-left: 1px solid lightgrey
             padding: 1.8vh 0.5vw
             @media screen and (max-width: 768px)

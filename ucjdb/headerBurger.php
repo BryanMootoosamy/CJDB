@@ -1,3 +1,4 @@
+<body <?php body_class(); ?>>
 <section class="headerBurger">
     <div class="left">
         <div id="menu" class="menu">
@@ -5,8 +6,8 @@
         </div>
         <button id="burger" name="burger" class="burger"><i class="fas fa-bars"></i></button>
         <script type="text/javascript">
-            var div = document.getElementById("menu");
-            var button = document.getElementById("burger");
+            let div = document.getElementById("menu");
+            let button = document.getElementById("burger");
             button.addEventListener("click",function (){div.classList.toggle("show")});
         </script>
         <h2>FooDog</h2>
@@ -25,3 +26,9 @@
         </div>
     </div>
 </section>
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ucjdb' ); ?></a>
+
+
+
+	<div id="content" class="site-content grid has-gutter">

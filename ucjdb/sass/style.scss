@@ -59,11 +59,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # header
 --------------------------------------------------------------*/
-@import "modules/_header";
+@import "modules/_header.sass";
 /*--------------------------------------------------------------
 # burger
 --------------------------------------------------------------*/
-@import "modules/_burger";
+@import "modules/_burger.sass";
 
 /*--------------------------------------------------------------
 # Typography
