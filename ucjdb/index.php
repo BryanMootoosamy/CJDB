@@ -12,7 +12,13 @@
  * @package _CJDB
  */
 
-get_header();
+// get_header();
+require "head.php";
+if (!is_singular()) {
+        get_template_part('header');
+    } else {
+        get_template_part("headerBurger");
+    }
 ?>
 
 	<div id="primary" class="content-area three-quarters">
