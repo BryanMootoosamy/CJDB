@@ -12,7 +12,10 @@
  * @package _CJDB
  */
 
-get_header();
+// get_header();
+if (is_singular()) {
+	get_template_part("headerburger");
+} else {get_template_part("header");}
 ?>
 
 	<div id="primary" class="content-area three-quarters">

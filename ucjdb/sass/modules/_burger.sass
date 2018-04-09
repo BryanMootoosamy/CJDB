@@ -1,6 +1,6 @@
 .headerBurger
     height: 6vh
-    border-bottom: 1px solid $borderColor
+    border-bottom: 1px solid $color__text-input
     display: flex
     width: 100vw
     @media screen and (max-width: 768px) and (orientation: portrait)
@@ -10,7 +10,7 @@
     .left
         display: flex
         width: 20vw
-        color: $fontColor
+        color: $color__text-main
         @media screen and (max-width: 768px) and (orientation: landscape)
             width: 8vw
         .menu
@@ -35,8 +35,8 @@
                             padding-top: 10vh
                         a
                             text-decoration: none
-                            color: $fontColor
-                            font-family: $crimson
+                            color: $color__text-main
+                            font-family: $font__branding
                             font-weight: bold
 
         .show
@@ -53,7 +53,7 @@
         h2
             margin-top: 0.2vh
             font-size: 4vh
-            font-family: $crimson
+            font-family: $font__branding
             font-weight: bold
             @media screen and (max-width: 768px) and (orientation: portrait)
                 margin-top: 2vh
@@ -70,10 +70,10 @@
         @media screen and (max-width: 768px) and (orientation: landscape)
             padding-left: 20vw
         padding-left: 25vw
-        font-family: $open
+        font-family: $font__main
         font-size: 1.3vh
         font-weight: bold
-        color: $fontColor
+        color: $color__text-main
         p
             margin-top: 1vh
             padding-right: 0.5vw
@@ -84,15 +84,15 @@
                 width: 25%
         form
             input
-                border: 2px solid $fontColor
+                border: 2px solid $color__text-main
                 transform: translateY(0.5vh)
                 @media screen and (max-width: 768px) and (orientation: landscape)
                     width: 20vw
                     margin-top: 3vh
             button
-                background-color: $fontColor
+                background-color: $color__text-main
                 color: white
-                border: 1px solid $fontColor
+                border: 1px solid $color__text-main
                 border-bottom: none
                 padding-top: 0.2vh
                 padding-bottom: 0.3vh
@@ -111,9 +111,9 @@
             margin-right: 0
             width: 25%
             text-align: center
-            font-family: $crimson
+            font-family: $font__branding
             font-weight: bold
-            background-color: $BurgerRightTxt
+            background-color: $color__background-body
             font-size: 1.35vh
             padding: 0.5vh 0.5vw
             @media screen and (max-width: 768px) and (orientation: portrait)
@@ -130,7 +130,7 @@
                     transform: translateX(2vw)
                     transform: translateY(1vh)
             height: 80%
-            color: $background
+            color: $color__background-body
             border-radius: 100%
             transform: rotate(-15deg)
         .search

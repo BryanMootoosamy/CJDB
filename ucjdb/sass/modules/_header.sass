@@ -1,10 +1,12 @@
+@import "variables-site/_colors"
+@import "variables-site/_typography"
 body
     overflow-x: hidden
-    background-color: $background
+    background-color: $color__background-body
 .headerTop
     .headerDog
-    font-family: $crimson
-    color: $fontColor
+    font-family: $font__branding
+    color: $color__text-main
     width: 100vw
     text-align: center
     display: block
@@ -26,13 +28,13 @@ body
                     border: none
 .title
     margin-left: 15vw
-    font-family: $crimson
+    font-family: $font__branding
     height: 6vh
     font-size: 6vh
     font-weight: bold
 .pageLink
     margin-top: 10vh
-    border-bottom: 2px solid $borderColor
+    border-bottom: 2px solid $color__text-input
     width: 60%
     margin-left: 18vw
     padding-bottom: 1vh
@@ -41,7 +43,7 @@ body
         display: inline
         a
             text-decoration: none
-            color: $fontColor
+            color: $color__text-main
             font-size: 1.4vh
             padding-left: 2.5vw
-            font-family: $open
+            font-family: $font__main
