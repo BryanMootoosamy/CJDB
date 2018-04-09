@@ -7,4 +7,5 @@ Thème basé sur [Underscores](http://underscores.me/) pour le projet 4 Turing p
 [Dorian](https://github.com/ocorneillard/)
 [Jennifer](https://github.com/jennifervankelst/)
 
+[Notre repo :)](https://github.com/BryanMootoosamy/CJDB/)
 [Notre Trello](https://trello.com/b/hzJ2L9eQ/foodog)
