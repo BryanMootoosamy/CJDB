@@ -8,7 +8,10 @@
     }
 ?>
 <main>
-
+<?php
+// supprimer
+get_template_part('404');
+?>
 </main>
 <?php
     get_template_part('footer');
