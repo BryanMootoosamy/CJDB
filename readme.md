@@ -6,3 +6,5 @@ Thème basé sur [Underscores](http://underscores.me/) pour le projet 4 Turing p
 [Claude](https://github.com/ClaudeJanssenPro/)
 [Dorian](https://github.com/ocorneillard/)
 [Jennifer](https://github.com/jennifervankelst/)
+
+[Notre Trello](https://trello.com/b/hzJ2L9eQ/foodog)
