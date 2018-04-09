@@ -12,7 +12,6 @@
 ?>
 
 	</div><!-- #content -->
-
 	<footer id="colophon" class="site-footer">
 		<section class="top">
                 <div class="categories">
@@ -32,8 +31,7 @@
                 </div>
             </section>
             <section class="bottom">
-
-</section>
+    </section>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
