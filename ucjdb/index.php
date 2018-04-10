@@ -28,7 +28,6 @@ if (!is_singular()) {
 $test = 1;
 if ( have_posts() ) : while ( have_posts() && $test != 6 ) : the_post();
 $test = $test + 1;
-eco "wordpress c'est de la merde!";
 if (!isset($grid)) { ?>
 
 
