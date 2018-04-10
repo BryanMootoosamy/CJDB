@@ -593,6 +593,24 @@ footer {
     @media screen and (max-width: 768px) and (orientation: portrait) {
       footer .bottom {
         height: 5vh; } }
+    footer .bottom .footerSocialLink {
+      float: right; }
+      footer .bottom .footerSocialLink ul {
+        display: flex;
+        height: 3vh;
+        width: 20vw;
+        margin-top: 6vh; }
+        footer .bottom .footerSocialLink ul li {
+          list-style: none;
+          margin-left: 3vw; }
+          footer .bottom .footerSocialLink ul li button {
+            background-color: #3A3E43;
+            color: #fff;
+            border-radius: 100%;
+            border: 1px solid #3A3E43;
+            padding: 10px;
+            padding-left: 13px;
+            padding-right: 13px; }
 
 /*--------------------------------------------------------------
 # Typography
