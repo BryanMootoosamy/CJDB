@@ -28,9 +28,9 @@
             <section class="bottom">
                 <div class="footerSocialLink">
                     <ul>
-                        <li><i class="fab fa-facebook-f"></i></i></li>
-                        <li><i class="fab fa-twitter"></i></li>
-                        <li><i class="fab fa-instagram"></i></li>
+                        <li><button type="button" name="button"><i class="fab fa-facebook-f"></i></button></li>
+                        <li><button type="button" name="button"><i class="fab fa-twitter"></i></button></li>
+                        <li><button type="button" name="button"><i class="fab fa-instagram"></i></button></li>
                     </ul>
                 </div>
             </section>
