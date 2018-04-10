@@ -69,6 +69,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Burger
 --------------------------------------------------------------*/
 
+// Section--popular
+
+@import "site/primary/_popular.sass";
+
 @import "modules/_burger.sass";
 /*--------------------------------------------------------------
 # Footer
