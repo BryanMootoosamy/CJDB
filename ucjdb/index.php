@@ -21,6 +21,43 @@ if (!is_singular()) {
     }
 ?>
 
+<?php
+
+// Section popular
+
+$test = 1;
+if ( have_posts() ) : while ( have_posts() && $test != 6 ) : the_post();
+$test = $test + 1;
+eco "wordpress c'est de la merde!";
+if (!isset($grid)) { ?>
+
+
+<div class="section--main">
+<section class='section--popular'>
+    <div class="grid">
+      <div class="gridmain">
+        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('big-one'); ?></a>
+        <div class='categories'>
+            <p><?php the_tags('', ', ', ''); ?></p>
+        </div>
+
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+      </div>
+<?php $grid = 'ok'; } else { ?>
+  <div class="grid2">
+    <a href="<?php the_permalink(); ?>">
+    <?php the_post_thumbnail(); ?>
+  </a>
+    <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+  </div>
+
+<?php } endwhile; else: ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+<?php endif; ?>
+</div>
+</section>
+</div>
+
 	<div id="primary" class="content-area three-quarters">
 		<main id="main" class="site-main grid-2 has-gutter">
 
