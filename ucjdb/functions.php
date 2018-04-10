@@ -161,3 +161,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ *
+ * Display Popular Post
+ */
+set_post_thumbnail_size( 220, 200);
+add_image_size( 'big-one', 640, 430 );

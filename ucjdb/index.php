@@ -21,18 +21,14 @@ if (!is_singular()) {
     }
 ?>
 
+<!-- Popular posts -->
 <?php
-
-// Section popular
-
 $test = 1;
 if ( have_posts() ) : while ( have_posts() && $test != 6 ) : the_post();
 $test = $test + 1;
-eco "wordpress c'est de la merde!";
 if (!isset($grid)) { ?>
-
-
-<div class="section--main">
+<div class='section--main'>
+<!-- à afficher pour les articles -->
 <section class='section--popular'>
     <div class="grid">
       <div class="gridmain">
