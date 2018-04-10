@@ -19,19 +19,21 @@
                 </div>
                 <div class="popularPosts">
                     <h3>Popular Posts</h3>
-                    <ul>
-                    	<?php $popular = new WP_Query(array('posts_per_page'=>4, 'meta_key'=>'popular_posts', 'orderby'=>'meta_value_num', 'order'=>'DESC'));
-                    	while ($popular->have_posts()) : $popular->the_post(); ?>
-                    	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                    	<?php endwhile; wp_reset_postdata(); ?>
-                    </ul>
+					<?php wpp_get_mostpopular(); ?>
                 </div>
                 <div class="instagram">
                     <p>instagram api</p>
                 </div>
             </section>
             <section class="bottom">
-    </section>
+                <div class="footerSocialLink">
+                    <ul>
+                        <li><i class="fab fa-facebook-f"></i></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </section>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
