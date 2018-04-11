@@ -21,8 +21,8 @@ if (!is_singular()) {
     }
 ?>
 
-	<div id="primary" class="content-area three-quarters">
-		<main id="main" class="site-main grid-2 has-gutter">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
 
 		<?php
 		if ( have_posts() ) :

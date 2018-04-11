@@ -24,4 +24,4 @@
 
 
 
-	<div id="content" class="site-content grid has-gutter">
+	<div id="content" class="site-content">
