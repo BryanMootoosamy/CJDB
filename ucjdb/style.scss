@@ -47,87 +47,87 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 
-@import "variables-site/variables-site";
-@import "mixins/mixins-master";
+@import "sass/variables-site/variables-site";
+@import "sass/mixins/mixins-master";
 /*--------------------------------------------------------------
 # Reset
 --------------------------------------------------------------*/
 
-@import "vendor/reset";
+@import "sass/vendor/reset";
 /*--------------------------------------------------------------
 # Grillade
 --------------------------------------------------------------*/
 
-@import "grillade";
+@import "sass/grillade";
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 
-@import "modules/_header.sass";
+@import "sass/modules/_header.sass";
 
 /*--------------------------------------------------------------
 # Burger
 --------------------------------------------------------------*/
 
-@import "modules/_burger.sass";
+@import "sass/modules/_burger.sass";
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
-@import "modules/_footer.sass";
+@import "sass/modules/_footer.sass";
 
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
 
-@import "typography/typography";
+@import "sass/typography/typography";
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
 
-@import "elements/elements";
+@import "sass/elements/elements";
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
 
-@import "forms/forms";
+@import "sass/forms/forms";
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
 
-@import "navigation/navigation";
+@import "sass/navigation/navigation";
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
 
-@import "modules/accessibility";
+@import "sass/modules/accessibility";
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
 
-@import "modules/alignments";
+@import "sass/modules/alignments";
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
 
-@import "modules/clearings";
+@import "sass/modules/clearings";
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 
-@import "site/secondary/widgets";
+@import "sass/site/secondary/widgets";
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
 
-@import "site/site";
+@import "sass/site/site";
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 
-@import "modules/infinite-scroll";
+@import "sass/modules/infinite-scroll";
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
 
-@import "media/media";
+@import "sass/media/media";
