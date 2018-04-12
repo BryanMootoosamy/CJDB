@@ -18,8 +18,15 @@
                     <?php $arg = array('hide_empty' => FALSE); wp_list_categories($arg); ?>
                 </div>
                 <div class="popularPosts">
-                    <h3>Popular Posts</h3>
-					<?php wpp_get_mostpopular(); ?>
+					<?php
+                        $args = array(
+                            'header' => 'Popular Posts',
+                            'header_start' => '<h3>',
+                            'header_end' => '</h3>',
+                            'limit' => 3
+                        );
+                    wpp_get_mostpopular( $args );
+                    ?>
                 </div>
                 <div class="instagram">
                     <p>instagram api</p>
