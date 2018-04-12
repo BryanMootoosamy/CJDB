@@ -29,7 +29,7 @@
                     ?>
                 </div>
                 <div class="instagram">
-                    <p>instagram api</p>
+                    <?php echo do_shortcode('[instagram-feed]'); ?>
                 </div>
             </section>
             <section class="bottom">
