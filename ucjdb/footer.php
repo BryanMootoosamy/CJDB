@@ -23,7 +23,11 @@
                             'header' => 'Popular Posts',
                             'header_start' => '<h3>',
                             'header_end' => '</h3>',
-                            'limit' => 3
+                            'limit' => 3,
+                            'thumbnail_width' => 105,
+                            'thumbnail_height' => 80,
+                            'stats_views' => 0,
+                            'post_html' => '<li>{thumb} <a href="{url}">{text_title}</a></li>'
                         );
                     wpp_get_mostpopular( $args );
                     ?>
