@@ -1,3 +1,5 @@
+
+
 <body <?php body_class(); ?>>
 	<div id="headerDog" class="headerDog">
             <div class="headerTop">
@@ -14,7 +16,7 @@
                 </div>
             </div>
             <div class="pageLink">
-                <?php wp_nav_menu() ?>
+                <?php wp_nav_menu(); ?>
             </div>
 	</div>
 <div id="page" class="site">

@@ -9,8 +9,8 @@ if (!is_singular()) {
 ?>
 
 
-<div class="category">
-  <h2>Lifestyle</h2>
+<div class="realCategory">
+  <h2><?php the_category(' '); ?></h2>
 </div>
 
 <section class="featured--posts">

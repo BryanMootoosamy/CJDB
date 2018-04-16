@@ -6,10 +6,8 @@ if (!is_singular()) {
         get_template_part("headerBurger");
     }
 ?>
-
-
-<div class="category">
-  <h2>Wellness</h2>
+<div class="realCategory">
+  <h2><?php the_category(' '); ?></h2>
 </div>
 
 <section class="featured--posts">
