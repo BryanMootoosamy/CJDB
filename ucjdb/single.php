@@ -1,43 +1,27 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package _CJDB
- */
+<?php get_header(); ?>
 
-// get_header();
-require "head.php";
-if (!is_singular()) {
-        get_template_part('header');
-    } else {
-        get_template_part("headerBurger");
-    }
-?>
+<section class="featured--posts">
+    <div class="featured--grid">
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+ <?php the_title(); ?>
+ <?php the_content(); ?>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+<?php endwhile; ?>
+<?php endif; ?>
+</div>
+<div class="featured--grid0">
+<div class="featured--media">
+<p>Twitter</p>
+<p>Facebook</p>
+<p>Instragram</p>
+</div>
 
-			get_template_part( 'template-parts/content', get_post_type() );
+<div class="featured--pub">
+  <img src="assets/images/pub.jpg" alt="" width="300" height="450">
+</div>
 
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
+</div>
+</section>
+</div>
+<?php get_footer(); ?>
