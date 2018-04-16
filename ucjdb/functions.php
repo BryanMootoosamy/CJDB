@@ -120,7 +120,7 @@ add_action( 'widgets_init', 'ucjdb_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ucjdb_scripts() {
-	wp_enqueue_style( 'ucjdb-fonts', 'href="https://fonts.googleapis.com/css?family=Crimson+Text:600|Open+Sans:400,800" rel="stylesheet"' );
+	wp_enqueue_style( 'ucjdb-fonts', 'https://fonts.googleapis.com/css?family=Crimson+Text:600|Open+Sans:400,800' );
 
 	wp_enqueue_style( 'ucjdb-style', get_stylesheet_uri() );
 
