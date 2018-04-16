@@ -103,7 +103,7 @@ if (!isset($grid)) { ?>
       <?php endwhile; endif; ?>
     </div>
       <div class="featured--grid0">
-    <!-- <div class="featured--media"> -->
+       <div class="featured--media">
       <?php get_sidebar(); ?>
       <!-- <a href="">
         <i class="fab fa-facebook-f"> 21562 Fans <span>LIKE</span></i>
@@ -120,6 +120,7 @@ if (!isset($grid)) { ?>
 
     <div class="featured--pub">
     </div> -->
+    </div>
 
   </div>
 </section>

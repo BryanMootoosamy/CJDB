@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+require "head.php";
+if (!is_singular()) {
+        get_template_part('header');
+    } else {
+        get_template_part("headerBurger");
+    }
+?>
 
 
 <div class="category">
