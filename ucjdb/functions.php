@@ -120,7 +120,7 @@ add_action( 'widgets_init', 'ucjdb_widgets_init' );
  * Enqueue scripts and styles.
  */
 function ucjdb_scripts() {
-	wp_enqueue_style( 'ucjdb-fonts', 'href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet"' );
+	wp_enqueue_style( 'ucjdb-fonts', 'href="https://fonts.googleapis.com/css?family=Crimson+Text:600|Open+Sans:400,800" rel="stylesheet"' );
 
 	wp_enqueue_style( 'ucjdb-style', get_stylesheet_uri() );
 
@@ -161,3 +161,22 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+// Dorian -- ajout
+
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 220, 200);
+
+function add_custom_sizes() {
+	add_image_size('small', 220, 200, true);
+	add_image_size( 'big-one', 640, 430, true);
+	add_image_size('featured', 350,250, true);
+}
+
+add_action('after_setup_theme','add_custom_sizes');
+
+
+function new_excerpt_length($length) {
+return 20;
+}
+add_filter('excerpt_length', 'new_excerpt_length');

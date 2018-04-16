@@ -12,7 +12,7 @@
                     </ul>
                 </div>
                 <div class="title">
-                    <h1>FooDog</h1>
+                    <h1><a href="<?php echo home_url(); ?>">FooDog</a></h1>
                 </div>
             </div>
             <div class="pageLink">
@@ -25,3 +25,4 @@
 
 
 	<div id="content" class="site-content">
+	<div class="dorian--index--cat">
