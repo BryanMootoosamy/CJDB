@@ -52,7 +52,7 @@
   <script src="/upup.min.js"></script>
   <script>
     UpUp.start({
-      'content': '<html><body><h1>FooDOg</h1><p>"I'm out for a walk, I'll be back soon."</p></body></html>'
+      'content': '<html><body><h1>FooDOg</h1><p>Out for a walk</p></body></html>'
     });
   </script>
 </body>
