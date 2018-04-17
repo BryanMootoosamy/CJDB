@@ -50,15 +50,8 @@ if (!is_singular()) {
     </div>
       <div class="featured--grid0">
     <div class="featured--media">
-      <p>Twitter</p>
-      <p>Facebook</p>
-      <p>Instragram</p>
+      <?php get_sidebar(); ?>
     </div>
-
-    <div class="featured--pub">
-      <img src="assets/images/pub.jpg" alt="" width="300" height="450">
-    </div>
-
   </div>
 </section>
 </div>
