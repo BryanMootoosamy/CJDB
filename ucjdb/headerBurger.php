@@ -10,7 +10,7 @@
             let button = document.getElementById("burger");
             button.addEventListener("click",function (){div.classList.toggle("show")});
         </script>
-        <h2>FooDog</h2>
+        <?php the_title( '<h1><a href="<?php echo home_url(); ?>">', '</a></h1>'); ?>
     </div>
     <div class="center">
         <p>Digest In Your Inbox </p><form class="emailDigest" method="post">

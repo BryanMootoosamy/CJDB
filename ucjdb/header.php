@@ -12,7 +12,7 @@
                     </ul>
                 </div>
                 <div class="title">
-                    <h1><a href="<?php echo home_url(); ?>">FooDog</a></h1>
+                    <?php the_title( '<h1><a href="<?php echo home_url(); ?>">', '</a></h1>'); ?>
                 </div>
             </div>
             <div class="pageLink">
