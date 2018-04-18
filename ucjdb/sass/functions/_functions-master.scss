@@ -1,0 +1,11 @@
+// VW output, eg.  width: get-vw(20px)vw;
+@function get-vw($object) {
+    $vw: (1024 * 0.01) * 1px;
+    @return ($object / $vw) * 1vw;
+}
+
+// VH output, eg. height: get-vh(20px)vh;
+@function get-vh($object) {
+    $vh: (768 * 0.01) * 1px;
+    @return ($object / $vh) * 1vh;
+}

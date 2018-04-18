@@ -48,6 +48,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @import "sass/variables-site/variables-site";
 @import "sass/mixins/mixins-master";
+@import "sass/functions/functions-master";
 /*--------------------------------------------------------------
 # Reset
 --------------------------------------------------------------*/
@@ -58,7 +59,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 @import "sass/modules/_header.sass";
-
 /*--------------------------------------------------------------
 # Burger
 --------------------------------------------------------------*/
@@ -69,7 +69,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 @import "sass/modules/_footer.sass";
-
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -125,7 +124,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 @import "sass/media/media";
-
 /*--------------------------------------------------------------
 # Index - category 
 --------------------------------------------------------------*/

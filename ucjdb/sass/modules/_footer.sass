@@ -52,7 +52,6 @@ footer
             display: grid;
             grid-template-rows: min-content 1fr;
             grid-template-columns: repeat(3, 1fr);
-            width: 30%;
             .footer_instagram_title
                 grid-row: 1;
                 grid-column: 1;
@@ -63,11 +62,11 @@ footer
                 z-index: 10;
             .footer_instagram_gallery
                 grid-row: 2;
-                grid-gap: 0.42vw;
+                grid-gap: get-vw(8px)vw;
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 img
-                    width: 5.7vw;
+                    width: get-vw(110px)vw;
                     height: auto;
         
     .bottom
