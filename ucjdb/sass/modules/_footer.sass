@@ -43,10 +43,27 @@ footer
                         a
                             color: white
                             text-decoration: none
-        // A améliorer
-        .instagram
-            @media screen and (width:768px) and (orientation: portrait)
-                display: none
+        .footer_instagram
+            display: grid;
+            grid-template-rows: min-content 1fr;
+            grid-template-columns: repeat(3, 1fr);
+            width: 30%;
+            .footer_instagram_title
+                grid-row: 1;
+                grid-column: 1;
+                vertical-align: middle;
+                line-height: 30px;
+                margin: 0;
+                padding: 0 15px 0 0;
+                z-index: 10;
+            .footer_instagram_gallery
+                grid-row: 2;
+                grid-gap: 0.5vw;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                img
+                    width: 8vh;
+                    height: auto;
         
     .bottom
         background-color: $color__footer-2
