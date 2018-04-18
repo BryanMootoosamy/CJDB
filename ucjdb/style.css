@@ -454,12 +454,17 @@ body {
 --------------------------------------------------------------*/
 footer {
   width: 100%;
+  display: grid;
+  grid-template-rows: 1fr min-content;
 }
 
 footer .top {
   background-color: #3A3E43;
   height: 48.5vh;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
@@ -543,13 +548,13 @@ footer .top .footer_instagram .footer_instagram_title {
 
 footer .top .footer_instagram .footer_instagram_gallery {
   grid-row: 2;
-  grid-gap: 0.5vw;
+  grid-gap: 0.42vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 footer .top .footer_instagram .footer_instagram_gallery img {
-  width: 8vh;
+  width: 5.7vw;
   height: auto;
 }
 
