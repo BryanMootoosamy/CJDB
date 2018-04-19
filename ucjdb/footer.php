@@ -13,7 +13,7 @@
 
 	</div><!-- content -->
 	<footer>
-		<section class="top">
+		<div class="top">
             <div class="categories">
                 <?php $arg = array('hide_empty' => FALSE); wp_list_categories($arg); ?>
             </div><!-- categories -->
@@ -66,8 +66,8 @@
                     </div>
                 </div><!-- footer_instagram_gallery -->
             </div><!-- footer_instagram -->
-        </section><!-- top -->
-        <section class="bottom">
+        </div><!-- top -->
+        <div class="bottom">
             <div class="footerSocialLink">
                 <ul>
                     <li><button type="button" name="button"><i class="fab fa-facebook-f"></i></button></li>
@@ -75,7 +75,7 @@
                     <li><button type="button" name="button"><i class="fab fa-instagram"></i></button></li>
                 </ul>
             </div>
-        </section><!-- bottom -->
+        </div><!-- bottom -->
 	</footer><!-- site-footer -->
 </div><!-- page -->
 
