@@ -1,8 +1,13 @@
 footer
     display: grid;
-    grid-template-rows: [top] 1fr [bottom] min-content;
+    grid-template-areas: 
+    "top"
+    "bottom";
+    grid-template-rows: 1fr min-content;
+    grid-auto-columns: 100%;
+    grid-gap: get-vw(40px)vw;;
     .top
-        grid-row: top;
+        grid-area: top;
         background-color: $color__footer-1
         height: 48.5vh
         display: flex
@@ -48,9 +53,9 @@ footer
                         a
                             color: white
                             text-decoration: none
-            .popularPosts
+        .popularPosts
                 width: 30vw
-            .footer_instagram
+        .footer_instagram
             display: grid;
             grid-template-rows: min-content 1fr;
             grid-template-columns: repeat(3, 1fr);
@@ -72,7 +77,7 @@ footer
                     height: auto;
         
     .bottom
-        grid-row: bottom;
+        grid-area: bottom;
         background-color: $color__footer-2
         height: 15vh
         @media screen and (max-width: 768px) and (orientation: portrait)
