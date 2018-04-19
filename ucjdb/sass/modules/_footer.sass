@@ -1,8 +1,8 @@
 footer
-    width: 100%
     display: grid;
-    grid-template-rows: 1fr min-content;
+    grid-template-rows: [top] 1fr [bottom] min-content;
     .top
+        grid-row: top;
         background-color: $color__footer-1
         height: 48.5vh
         display: flex
@@ -48,7 +48,9 @@ footer
                         a
                             color: white
                             text-decoration: none
-        .footer_instagram
+            .popularPosts
+                width: 30vw
+            .footer_instagram
             display: grid;
             grid-template-rows: min-content 1fr;
             grid-template-columns: repeat(3, 1fr);
@@ -70,6 +72,7 @@ footer
                     height: auto;
         
     .bottom
+        grid-row: bottom;
         background-color: $color__footer-2
         height: 15vh
         @media screen and (max-width: 768px) and (orientation: portrait)
