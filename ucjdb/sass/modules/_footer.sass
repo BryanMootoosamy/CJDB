@@ -1,13 +1,14 @@
 footer
-    display: grid;
+    display: grid
     grid-template-areas: 
     "top"
-    "bottom";
-    grid-template-rows: 1fr min-content;
-    grid-auto-columns: 100%;
-    grid-gap: get-vw(40px)vw;;
+    "bottom"
+    grid-template-rows: 1fr min-content
+    grid-auto-columns: 100%
+    grid-gap: get-vw(40px)vw
+    width: 100vw
     .top
-        grid-area: top;
+        grid-area: top
         background-color: $color__footer-1
         height: 48.5vh
         display: flex
@@ -21,7 +22,6 @@ footer
             font-size: 10px
             list-style: none
             color: $color__text-input
-            width: 30vw
             margin-left: 2vw
             margin-top: 2vh
             font-family: $font__main
@@ -54,30 +54,31 @@ footer
                             color: white
                             text-decoration: none
         .popularPosts
-                width: 30vw
+            width: 30vw
         .footer_instagram
-            display: grid;
-            grid-template-rows: min-content 1fr;
-            grid-template-columns: repeat(3, 1fr);
+            width: 30vw
+            display: grid
+            grid-template-rows: min-content 1fr
+            grid-template-columns: repeat(3, 1fr)
             .footer_instagram_title
-                grid-row: 1;
-                grid-column: 1;
-                vertical-align: middle;
-                line-height: 30px;
-                margin: 0;
-                padding: 0 15px 0 0;
-                z-index: 10;
+                grid-row: 1
+                grid-column: 1
+                vertical-align: middle
+                line-height: 30px
+                margin: 0
+                padding: 0 15px 0 0
+                z-index: 10
             .footer_instagram_gallery
-                grid-row: 2;
-                grid-gap: get-vw(8px)vw;
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
+                grid-row: 2
+                grid-gap: get-vw(8px)vw
+                display: grid
+                grid-template-columns: repeat(3, 1fr)
                 img
-                    width: get-vw(110px)vw;
-                    height: auto;
+                    width: get-vw(110px)vw
+                    height: auto
         
     .bottom
-        grid-area: bottom;
+        grid-area: bottom
         background-color: $color__footer-2
         height: 15vh
         @media screen and (max-width: 768px) and (orientation: portrait)
@@ -86,10 +87,9 @@ footer
             float: right
             ul
                 display: flex
-                height: 3vh
-                width: 20vw
-                margin-top: 6vh
-                li
+                justify-content: flex-end
+
+                    li
                     list-style: none
                     margin-left: 3vw
                     button
@@ -98,5 +98,5 @@ footer
                         border-radius: 100%
                         border: 1px solid $color__footer-1
                         padding: 10px
-                        padding-left: 13px
-                        padding-right: 13px
+                        padding-left: get-vw(13px)vw
+                        padding-right: get-vw(13px)vw 

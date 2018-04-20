@@ -15,16 +15,12 @@ if (!is_singular()) {
     }
 ?>
 
-<div id="primary" class="content-area">
-	<main id="main" class="site-main">
-		<div class="404-content-wrap">
-					<div class="404-content-header">
-						<div class="logo-404"><h1>404</h1></div>
-						<p>It looks like nothing was found at this location. Maybe try a search?</p>
-					</div><!-- .404-content-header -->
-				<?php get_search_form(); ?>
-		</div><!-- .404-content-wrap -->
-	</main><!-- #main -->
-</div><!-- #primary -->
+	<main class="404">
+		<div class="text">
+			<h4>404</h4>
+			<p>It looks like nothing was found at this location. Maybe try a search?</p>
+		</div><!-- .404_header -->
+		<?php get_search_form(); ?>
+	</main><!-- #404 -->
 
 <?php get_footer(); ?>
