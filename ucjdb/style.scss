@@ -24,6 +24,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 # Reset
+# Header
+# Burger
+# Footer
 # Typography
 # Elements
 # Forms
@@ -40,12 +43,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Infinite scroll
 # Media
 	## Captions
-	## Galleries
-# Header
-# Burger
+  ## Galleries
 # Index - category 
-# Footer
-# 404
 --------------------------------------------------------------*/
 
 @import "sass/variables-site/variables-site";
@@ -56,6 +55,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 
 @import "sass/vendor/reset";
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+@import "sass/modules/_header.sass";
+/*--------------------------------------------------------------
+# Burger
+--------------------------------------------------------------*/
+
+@import "sass/modules/_burger.sass";
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+@import "sass/modules/_footer.sass";
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -112,27 +126,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @import "sass/media/media";
 /*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-
-@import "sass/modules/_header.sass";
-/*--------------------------------------------------------------
-# Burger
---------------------------------------------------------------*/
-
-@import "sass/modules/_burger.sass";
-/*--------------------------------------------------------------
 # Index - category 
 --------------------------------------------------------------*/
 
 @import "sass/modules/_index_cat.sass";
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-
-@import "sass/modules/_footer.sass";
-/*--------------------------------------------------------------
-# 404
---------------------------------------------------------------*/
-
-@import "sass/modules/_404.sass";

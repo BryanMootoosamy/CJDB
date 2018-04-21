@@ -19,7 +19,7 @@
 	<meta property="og:type" content="website"/>
 	<meta property="og:title" content="Foodog | Better living with your dog"/>
 	<meta property="og:description" content="Health and wellness advice from vets and nutrition experts, DIY recipes and nutrition education, and a unique editorial perspective on what it means to love and live with your dog."/>
-	<meta property="og:url" content="http://http://turing.claudejanssen.be/wp/"/>
+	<meta property="og:url" content="http://turing.claudejanssen.be/wp/"/>
 	<meta property="og:site_name" content="FooDog"/>
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">

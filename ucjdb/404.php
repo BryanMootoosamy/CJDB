@@ -14,13 +14,13 @@ if (!is_singular()) {
         get_template_part("headerBurger");
     }
 ?>
-
-	<main class="404">
-		<div class="text">
-			<h4>404</h4>
-			<p>It looks like nothing was found at this location. Maybe try a search?</p>
-		</div><!-- .404_header -->
+<main class="404">
+	<div class="text">
+		<h4>404</h4>
+		<p>It looks like nothing was found at this location. Maybe try a search?</p>
+	</div>
+	<div class="search">
 		<?php get_search_form(); ?>
-	</main><!-- #404 -->
-
+	</div>
+</main>
 <?php get_footer(); ?>
