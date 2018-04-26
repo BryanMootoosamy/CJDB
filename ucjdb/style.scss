@@ -45,6 +45,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
   ## Galleries
 # Index - category 
+# 404
 --------------------------------------------------------------*/
 
 @import "sass/variables-site/variables-site";
@@ -59,17 +60,17 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Header
 --------------------------------------------------------------*/
 
-@import "sass/modules/_header.sass";
+@import "sass/modules/header";
 /*--------------------------------------------------------------
 # Burger
 --------------------------------------------------------------*/
 
-@import "sass/modules/_burger.sass";
+@import "sass/modules/burger";
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 
-@import "sass/modules/_footer.sass";
+@import "sass/modules/footer";
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -129,4 +130,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Index - category 
 --------------------------------------------------------------*/
 
-@import "sass/modules/_index_cat.sass";
+@import "sass/modules/index_cat";
+/*--------------------------------------------------------------
+# Index - category 
+--------------------------------------------------------------*/
+
+@import "sass/modules/404";

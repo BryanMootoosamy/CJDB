@@ -14,7 +14,7 @@ if (!is_singular()) {
         get_template_part("headerBurger");
     }
 ?>
-<main class="404">
+<main class="Page404">
 	<div class="text">
 		<h4>404</h4>
 		<p>It looks like nothing was found at this location. Maybe try a search?</p>
